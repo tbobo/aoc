@@ -9,7 +9,7 @@ def solve_p1():
 
 
 def solve_p2():
-    with open('p1.in', 'r') as f:
+    with open('p2.in', 'r') as f:
         ans = 0
         measurements = [int(line) for line in f]
         for i, x in enumerate(measurements):
